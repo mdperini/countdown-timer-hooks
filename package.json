@@ -1,0 +1,19 @@
+{
+  "name": "countdown-timer",
+  "version": "1.0.0",
+  "description": "countdown timer using React Hooks",
+  "main": "index.js",
+  "repository": "https://github.com/mdperini/countdown-timer",
+  "author": "Michael D. Perini <perinimichaeld@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "react": "^16.12.0",
+    "redux": "^4.0.5"
+  },
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --port=8092",
+    "start": "npm run devserver"
+  }
+}
